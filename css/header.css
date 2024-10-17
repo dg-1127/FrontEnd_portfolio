@@ -1,0 +1,32 @@
+header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 9999px;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width--pc);
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.indigo__logo {
+  font-size: var(--font-size--x-large);
+  color: var(--color--primary);
+  cursor: pointer;
+}
+
+.indigo__links {
+  display: flex;
+  gap: 30px;
+}
+
+.indigo__links > li {
+  cursor: pointer;
+}

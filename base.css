@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "KimjungchulMyungjo-Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: "KimjungchulMyungjo-Bold";
+}
+
+:root {
+  /* 색상 */
+  --color--primary: #8aaac0;
+  --color--secondary: #78879f;
+  --color--background: #94607a;
+  --color--text: #dbdbdb;
+  --color--link: #35506f;
+
+  /* 폰트 사이즈 */
+  --font-size--base: 16px;
+  --font-size--x-small: 10px;
+  --font-size--small: 12px;
+  --font-size--large: 20px;
+  --font-size--x-large: 24px;
+
+  /* 센터링 & 컨테이닝 */
+  --max-width--pc: 1200px;
+  --max-width--mobile: 768px;
+}
